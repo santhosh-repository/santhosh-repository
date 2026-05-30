@@ -1,4 +1,3 @@
-## Hi there 👋
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Santhosh%20S&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Engineer%20%7C%20Building%20Scalable%20Lakehouse%20Architectures&descAlignY=62&descSize=16" width="100%"/>
 
 <div align="center">
@@ -39,9 +38,9 @@ class SanthoshS:
 
         self.currently_learning = [
             "Apache Flink → Real-time stream processing",
-            "dbt Core    → Data transformation framework",
+            "dbt Core     → Data transformation framework",
             "Delta Live Tables → Declarative ETL pipelines",
-            "Terraform   → Infrastructure as Code for data stacks"
+            "Terraform    → Infrastructure as Code for data stacks"
         ]
 
         self.fun_fact = "Migrated 120+ scheduled ETL jobs saving $18K/year! 💰"
@@ -86,7 +85,6 @@ print(me.motto())
 ![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
 ![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
 ![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
-![Azure Key Vault](https://img.shields.io/badge/Azure%20Key%20Vault-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
 **Databases**
 
@@ -102,51 +100,6 @@ print(me.motto())
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<a href="https://github.com/santhosh-repository">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=santhosh-repository&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10" />
-</a>
-<a href="https://github.com/santhosh-repository">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=santhosh-repository&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10" />
-</a>
-
-</div>
-
----
-
-## 🔥 Streak Stats
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=santhosh-repository&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 📈 Activity Graph
-
-<div align="center">
-
-[![Santhosh's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=santhosh-repository&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true)](https://github.com/santhosh-repository)
-
-</div>
-
----
-
-## 🏆 Trophy Wall
-
-<div align="center">
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=santhosh-repository&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4)](https://github.com/santhosh-repository)
-
-</div>
 
 ---
 
@@ -170,9 +123,9 @@ print(me.motto())
 > `Databricks` `PySpark` `Azure Data Factory` `Azure Data Lake` `SQL Server` `PostgreSQL` `AWS S3` `Apache Airflow` `Databricks Jobs`
 
 - 🏦 Built **US Bank Mortgage Loan Application** pipeline with Bronze/Silver/Gold medallion architecture using Azure Data Lake Storage and Databricks notebooks
-- 🏛️ Developed **Banking Report Generation Product** serving Federal, IndusInd, VisaPay, SBI, Alizz and multiple small finance banks with automated daily job runs for data synchronization
+- 🏛️ Developed **Banking Report Generation Product** serving Federal, IndusInd, VisaPay, SBI, Alizz and multiple small finance banks with automated daily job runs
 - 💸 Executed major **cost optimization**: migrated **120+ scheduled ETL jobs** from Databricks Workflows to Apache Airflow, saving **$18K/year**
-- 🔄 Engineered complex PySpark data transformations — cleansing, enrichment, aggregation — ensuring high data quality and consistency across distributed systems
+- 🔄 Engineered complex PySpark transformations — cleansing, enrichment, aggregation — ensuring high data quality across distributed systems
 
 </details>
 
@@ -184,9 +137,9 @@ print(me.motto())
 
 | Project | Stack | Highlights |
 |---|---|---|
-| 🏦 **US Bank Mortgage Loan Application** | Databricks · PySpark · Azure Data Lake · ADF · SQL Server | Bronze/Silver/Gold medallion architecture; incremental ETL pipelines; ADF-based weekly reporting; reduced data refresh by **40%** |
-| 📊 **Banking Report Generation Product** | Airflow · PostgreSQL · AWS S3 · PySpark · Databricks | Automated daily sync for **6+ major banks**; migrated **120+ jobs** saving **$18K/year**; multi-destination storage (PostgreSQL + S3) |
-| 🏗️ **Enterprise Lakehouse on Iceberg + Trino** | Apache Iceberg · Trino · PySpark · Hive Metastore · Kubernetes | **50% query latency reduction**; ACID transactions at scale; containerized via Docker + Helm; **99.9% pipeline reliability** |
+| 🏦 **US Bank Mortgage Loan Application** | Databricks · PySpark · Azure Data Lake · ADF · SQL Server | Bronze/Silver/Gold medallion architecture; ADF-based weekly reporting; data refresh reduced by **40%** |
+| 📊 **Banking Report Generation Product** | Airflow · PostgreSQL · AWS S3 · PySpark · Databricks | Automated daily sync for **6+ major banks**; migrated **120+ jobs** saving **$18K/year** |
+| 🏗️ **Enterprise Lakehouse — Iceberg + Trino** | Apache Iceberg · Trino · PySpark · Hive Metastore · Kubernetes | **50% query latency reduction**; ACID transactions at scale; **99.9% pipeline reliability** |
 
 </div>
 
@@ -201,12 +154,12 @@ print(me.motto())
 | ☁️ | **Microsoft Azure Fundamentals** | AZ-900 Certified by Microsoft |
 | 🔷 | **Azure Data Engineer Associate** | DP-203 Certified by Microsoft |
 | 🟥 | **Databricks Certified Data Engineer Associate** | Certified by Databricks |
-| 💰 | **Cost Optimization — Airflow Migration** | Migrated **120+ ETL jobs** from Databricks → Airflow saving **$18K/year** |
-| 💵 | **Cost Optimization — EMR Migration** | Migrated AWS EMR workloads to Databricks Spark SQL saving **$5K/year** |
-| ⚡ | **Performance Engineering** | Achieved **30% reduction** in data processing execution time via PySpark optimizations |
-| 🔍 | **Query Optimization** | Reduced query latency by **50%** via Trino on Apache Iceberg |
-| 📡 | **Reliability Engineering** | Achieved **99.9% pipeline reliability** on multi-terabyte ingestion |
-| 🩺 | **Monitoring Excellence** | Reduced MTTR for sync failures by **60%** with Databricks + Go Alerts framework |
+| 💰 | **Cost Optimization — Airflow Migration** | Migrated **120+ ETL jobs** Databricks → Airflow saving **$18K/year** |
+| 💵 | **Cost Optimization — EMR Migration** | Migrated AWS EMR → Databricks Spark SQL saving **$5K/year** |
+| ⚡ | **Performance Engineering** | **30% reduction** in data processing time via PySpark optimizations |
+| 🔍 | **Query Optimization** | **50% query latency reduction** via Trino on Apache Iceberg |
+| 📡 | **Reliability Engineering** | **99.9% pipeline reliability** on multi-terabyte ingestion |
+| 🩺 | **Monitoring Excellence** | **60% MTTR reduction** with Databricks + Go Alerts framework |
 
 </div>
 
@@ -227,11 +180,11 @@ print(me.motto())
 ```
 📚 Currently Exploring:
 ────────────────────────────────────────────────
-  Apache Flink     →  Real-time stream processing & event-driven pipelines
-  dbt Core         →  SQL-first data transformation & data modeling
-  Delta Live Tables→  Declarative, auto-scaling ETL on Databricks
-  Terraform        →  Infrastructure as Code for cloud data stacks
-  Apache Kafka     →  Distributed event streaming & message brokering
+  Apache Flink      →  Real-time stream processing & event-driven pipelines
+  dbt Core          →  SQL-first data transformation & data modeling
+  Delta Live Tables →  Declarative, auto-scaling ETL on Databricks
+  Terraform         →  Infrastructure as Code for cloud data stacks
+  Apache Kafka      →  Distributed event streaming & message brokering
 ────────────────────────────────────────────────
 ```
 
@@ -241,7 +194,7 @@ print(me.motto())
 
 *"Data is the new oil — I build the pipelines that refine it."* 🛢️
 
-**⭐ If you find my work helpful, consider giving a star to my repositories!**
+**⭐ Star my repositories if you find them useful!**
 
 </div>
 
